@@ -1,0 +1,12 @@
+div{
+    background-color: blue;
+    width: 140px;
+    margin: auto;
+    text-align: center;
+}
+div{
+    border-width: 5px;
+    border-color: brown;
+    border-style: solid;
+    border-radius: 10px;
+}

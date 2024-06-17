@@ -1,0 +1,31 @@
+body{
+    background-color: green;
+}
+.box{
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    background-color: blueviolet;
+    background-image: url(https://content.imageresizer.com/images/memes/sad-pepe-meme-9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+.scroll {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    background: url('https://i.blogs.es/57e302/cristianbale/1366_2000.jpeg') center/cover fixed no-repeat;
+}
+
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: #000a
+}
+h2{
+    padding: 20px;
+    text-align: center;
+
+
+}

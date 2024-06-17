@@ -1,0 +1,42 @@
+p {
+    color: blue;
+    /* la fuente de la letra*/
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*tamaño de la letra*/
+    font-size: 30px;
+    /*Negrita o remarcado*/
+    font-weight: bolder;
+    /*Cursiva  inclinar la letra*/
+    font-style:oblique italic;
+    /* escoger done posicionar la letra */
+    text-align: center;
+    /*empareja las lineas para que sean iguales*/
+    text-align: justify;
+    /*Colocar linea entre las letras*/
+    text-decoration: 0;
+    /*la distancia que hay entre linea y linea*/
+    line-height: normal;
+    /*separar letras*/
+    letter-spacing: 6px;
+    
+
+}
+
+h1{
+    font-family: Jose;
+    color:blueviolet;
+    text-align:center;
+}
+li {
+    font-family: Jose;
+    color:yellow;
+    font-weight: bolder;
+}
+.faltante{
+    font-family: Jose;
+    color: aqua;
+    font-weight: bold;
+}
+#ingrediente-secreto{
+    color:green;
+}
