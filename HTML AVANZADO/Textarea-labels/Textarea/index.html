@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>
+            Formulario de Contacto
+        </h2>
+        <div class="form_input">
+            <input type="text" placeholder="Nombre Completo">
+        </div>
+        <div class="form_input">
+            <input type="email" name="" id="" placeholder="Email">
+        </div>
+        <div class="form_input">
+            <!--el readonly deja un mensaje fijo en el textarea y envia el mensaje -->
+            <!--el disabled no se envia el dato ni se puede enfocar-->
+            <!--maxlength="130" cantidad definida de caracteres-->
+            <!--rows="3" las cantidad de filas de las que puede escribir-->
+            <textarea readonly placeholder="readonly" >readonly</textarea>
+            <textarea disabled placeholder="disabled" >disabled</textarea>
+            <textarea maxlength="130" placeholder="maxlength=" >maxlength="130"</textarea>
+            <textarea rows="4" placeholder="rows=4" >rows=4</textarea>
+        </div>
+    </form>
+    
+</body>
+</html>

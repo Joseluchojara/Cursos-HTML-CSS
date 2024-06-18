@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>
+            Formulario de Contacto
+        </h2>
+        <!--SIMPLES INPUTS-->
+        <div class="form_input">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" placeholder="Elton Jhon" id="nombre">
+        </div>
+        <div class="form_input">
+            <label id="email">Email</label>
+            <input type="email" id="email" placeholder="Bolastristes@gmail.com">
+        </div>
+
+        <!--SELECT & OPTION-->
+
+        <div class="form_input">
+            <label >tipo de Usuario</label>
+                <select name="type-of-user" >
+                
+                    <option value="user1">Opción 1</option>
+                    <option value="user2">Opción 2</option>
+                    <option value="user3">Opción 3</option>
+                    <option value="user4">Opción 4</option>
+
+                </select>
+            
+        </div>
+        <!--DATALIST & OPTION--->
+
+        <div class="form_input">
+            <label for="referente">Referente</label>
+            <input list="referente" name="referente" id="referente-input">
+            <datalist id="referente">
+                <option value="Soy dalto">un creador de contenido</option>
+                <option value="una empresa"></option>
+                <option value="karlita"></option>
+                <option value="pepe"></option>
+            </datalist>
+        </div>
+        <!--Texarea-->
+        <div class="form_input">
+            <label for="Mensaje">Mensaje
+            </label>
+            <textarea name="" id="Mensaje" placeholder="Deja un mensajaje jejejeje"></textarea>
+        </div>
+
+        <div class="form_input">
+            <label >
+                Acpeto los terminos y condiciones
+                <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+    </form>
+    
+</body>
+</html>
