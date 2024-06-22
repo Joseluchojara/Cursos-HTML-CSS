@@ -59,3 +59,13 @@ label{
     background-color: #000000;
    
 }
+fieldset{
+    margin: 10px 10px;
+    border: 1px solid #ddd6;
+    border-radius: 5px;
+
+}
+legend{
+    padding: 0 6px;
+    
+}
